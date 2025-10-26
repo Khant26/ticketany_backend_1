@@ -2,24 +2,24 @@
 Django==5.2.5
 
 # Django REST Framework
-djangorestframework==3.16.1
+djangorestframework==3.15.2
 
 # JWT authentication
-djangorestframework-simplejwt==5.2.1
+djangorestframework-simplejwt==5.3.1
 
 # PostgreSQL driver
-psycopg2-binary==2.9.7
+psycopg2-binary==2.9.10
 
 # Required by Django
-asgiref==3.9.1
-pytz==2025.2
-sqlparse==0.5.3
+asgiref==3.8.1
+pytz==2024.2
+sqlparse==0.5.1
 
 # Optional: For handling images if you use ImageField
-Pillow==10.1.0
+Pillow==11.0.0
 
 # CORS headers
-django-cors-headers==4.4.0
+django-cors-headers==4.6.0
 
 # Environment variables
 python-decouple==3.8
